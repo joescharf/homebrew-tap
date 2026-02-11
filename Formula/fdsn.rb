@@ -5,20 +5,20 @@
 class Fdsn < Formula
   desc "Seismic station metadata management -- import, explore, and re-serve FDSN data from a single binary."
   homepage "https://github.com/joescharf/fdsn"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/joescharf/fdsn/releases/download/v0.1.0/fdsn_0.1.0_darwin_amd64.tar.gz"
-      sha256 "db4ccefe15a4267a5d5d2609f4c3723663315dcc39ae111e1ef3c5325b65f881"
+      url "https://github.com/joescharf/fdsn/releases/download/v0.2.0/fdsn_0.2.0_darwin_amd64.tar.gz"
+      sha256 "7281ca9bac155a8e644ee7a7cf35b7cb0ddb1b96cef9474b24c30b2e246051b6"
 
       def install
         bin.install "fdsn"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/joescharf/fdsn/releases/download/v0.1.0/fdsn_0.1.0_darwin_arm64.tar.gz"
-      sha256 "52b5b16627ed3208beac1558a5bfe23bc819841a494f7dfa0e056b5561ffb414"
+      url "https://github.com/joescharf/fdsn/releases/download/v0.2.0/fdsn_0.2.0_darwin_arm64.tar.gz"
+      sha256 "60c13b4c3e01023b6c1496d7dd357dec08b44b7596ba7c221d8a1e6c7c1134aa"
 
       def install
         bin.install "fdsn"
@@ -28,15 +28,15 @@ class Fdsn < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/joescharf/fdsn/releases/download/v0.1.0/fdsn_0.1.0_linux_amd64.tar.gz"
-      sha256 "54fccaf4ccfdc6b49990c4fb1d2dc525e7a908dd1544e4b0bebb4825b3663a4b"
+      url "https://github.com/joescharf/fdsn/releases/download/v0.2.0/fdsn_0.2.0_linux_amd64.tar.gz"
+      sha256 "865b91627b88bc925ca4bb5ccb26594e249463f13b9e6244bdeef372f2c2fca8"
       def install
         bin.install "fdsn"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/joescharf/fdsn/releases/download/v0.1.0/fdsn_0.1.0_linux_arm64.tar.gz"
-      sha256 "8d67a213e334d998dce39bc49c4599c4face3ab62cf627f2d4804b6824bb09e4"
+      url "https://github.com/joescharf/fdsn/releases/download/v0.2.0/fdsn_0.2.0_linux_arm64.tar.gz"
+      sha256 "5f2d8bbf7b56d96aad2d5987403cd992e321d0f93034be82749d117bc58b79f9"
       def install
         bin.install "fdsn"
       end
