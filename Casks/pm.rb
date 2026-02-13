@@ -3,7 +3,7 @@ cask "pm" do
   name "pm"
   desc "Project manager CLI — track projects, issues, and agent sessions from a single binary."
   homepage "https://github.com/joescharf/pm"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pm" do
   on_macos do
     on_intel do
       url "https://github.com/joescharf/pm/releases/download/v#{version}/pm_#{version}_darwin_amd64.tar.gz"
-      sha256 "0da933518410dc86db3b405ca04401537398e17a3e2f0e5f52e6ade2fe819cbf"
+      sha256 "b5266d10f74a230ddd4538d21bc488aa2d5c66d50033056199301638c316394f"
     end
     on_arm do
       url "https://github.com/joescharf/pm/releases/download/v#{version}/pm_#{version}_darwin_arm64.tar.gz"
-      sha256 "16ffc659b24d13ed4822499dd9376a9483183e7ad529ed4d825b2a699cd2270e"
+      sha256 "bb02df5ff5e1c2ebdcc93d700adf7e8714f1c79802b41ccad0f8303b5cd6ff08"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/joescharf/pm/releases/download/v#{version}/pm_#{version}_linux_amd64.tar.gz"
-      sha256 "9e0bcde95e526a908d9c04eecd5214fdb64d0726a8c06893ad01d4907afb7d63"
+      sha256 "78c386eea2218c0f1d35b6644eec52d0efa80cd8f57c41fb82355e2fa3db8800"
     end
     on_arm do
       url "https://github.com/joescharf/pm/releases/download/v#{version}/pm_#{version}_linux_arm64.tar.gz"
-      sha256 "3a9b9bc75a870f71b96045053dc836b0bed849574df6063597e22abbd7594962"
+      sha256 "e09778b2739bc5dfdca554ea8ecf90498a549572124374dac721d72fdb8e4236"
     end
   end
 
