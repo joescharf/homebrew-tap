@@ -3,7 +3,7 @@ cask "gsi" do
   name "gsi"
   desc "Initialize Go projects with best practices and tooling"
   homepage "https://github.com/joescharf/gsi"
-  version "0.4.1"
+  version "0.4.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,7 +13,7 @@ cask "gsi" do
 
   on_macos do
     url "https://github.com/joescharf/gsi/releases/download/v#{version}/gsi_Darwin_universal.zip"
-    sha256 "8e4eab83f93c0be3b65ddb341f71740ae369a5a3738a5f1c7877b1fc337a4ea8"
+    sha256 "820817fc50aad82e48b3a2c6dffb999a0e2db2b66e4e7c6b1ccd2eeb82f82d6d"
   end
 
   # No zap stanza required
