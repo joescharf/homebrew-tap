@@ -3,7 +3,7 @@ cask "pm" do
   name "pm"
   desc "Project manager CLI -- track projects, issues, and agent sessions from a single binary."
   homepage "https://github.com/joescharf/pm"
-  version "0.1.10"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,7 +13,7 @@ cask "pm" do
 
   on_macos do
     url "https://github.com/joescharf/pm/releases/download/v#{version}/pm_Darwin_universal.zip"
-    sha256 "2bc082f64fc1910a2723830a678027af2f317f0f84fa19ff1d41ee616ad7f417"
+    sha256 "2f790bd219d45172f95b625029808b5bd929147675d4ddeb2f34cc01fc38d7ac"
   end
 
   # No zap stanza required
