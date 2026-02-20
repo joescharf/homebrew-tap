@@ -3,7 +3,7 @@ cask "wt" do
   name "wt"
   desc "Git worktree manager with iTerm2 integration"
   homepage "https://github.com/joescharf/wt"
-  version "0.5.4"
+  version "0.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,7 +13,7 @@ cask "wt" do
 
   on_macos do
     url "https://github.com/joescharf/wt/releases/download/v#{version}/wt_darwin_universal.zip"
-    sha256 "34590aa11fb4722f8e19ee6f6505f88c0686d6ef549ecb9a1d4cb0bbfa412df7"
+    sha256 "61e4d8b809271fea2c001f250265c706ed2b956131ea0b9791ae288843bdd137"
   end
 
   # No zap stanza required
