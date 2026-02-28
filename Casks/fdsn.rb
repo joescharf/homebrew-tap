@@ -3,7 +3,7 @@ cask "fdsn" do
   name "fdsn"
   desc "Seismic station metadata management -- import, explore, and re-serve FDSN data from a single binary."
   homepage "https://github.com/joescharf/fdsn"
-  version "0.13.0"
+  version "0.13.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,7 +13,7 @@ cask "fdsn" do
 
   on_macos do
     url "https://github.com/joescharf/fdsn/releases/download/v#{version}/fdsn_Darwin_universal.zip"
-    sha256 "20af7a647fb43e4f592ff6fabef5652c5724a936592b512bebdb37e97c9e57cc"
+    sha256 "353d4ce5218e20e57c1cbd572a3a847df24defb212dfb9db73ef63b7e0b8cddc"
   end
 
   # No zap stanza required
